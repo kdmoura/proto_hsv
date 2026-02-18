@@ -24,7 +24,7 @@ pip install git+https://github.com/kdmoura/stream_hsv.git
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourname/proto_hsv.git
+git clone https://github.com/kdmoura/proto_hsv.git
 cd proto_hsv
 ```
 
