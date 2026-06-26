@@ -102,9 +102,6 @@ def generate_diss_training_data(
             
             f_rf = data[rf_idxs]
             
-            between_diff, _, _ = _compute_dissimilarity(f_gen, f_rf, gen_idxs, rf_idxs)
-            
-            
             neg_diss, _, _ = _compute_dissimilarity(f_gen[:n_pos_s], 
                                              f_rf, 
                                              gen_idxs[:n_pos_s], 
